@@ -41,7 +41,6 @@ class Human2(Student,Human):
 print('re')
 hum2=Human2('Medet',21)
 print(hum2)
-
-
-
 print('')
+
+
