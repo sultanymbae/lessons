@@ -13,7 +13,9 @@ hum = Human('Султан', 17)
 
 
 class Student(Human):
-    def __init__(self, name, age, status=True):
+
+    head = 2
+    def __init__(self, name, age, status):
         super().__init__(name, age)
         Human.__init__(self, name, age)
         self.status = status
@@ -28,26 +30,9 @@ hum.running()
 print(student1.status)
 
 
-class Tefal:
-    def fire(self=True):
-        print('нагрел воду')
-
-    def _on(self=True):
-        print('включить тефаль')
-
-    def __woter(self):
-        print('налить воду')
-
-    def __run(self=True):
-        print('запустить')
-
-    def _off(self=1):
-        print('экстренное выключение')
-
-
-t = Tefal
-
-
-
-
-
+class Tefal(Student,Human):
+    def __init__(self, name, age, status):
+        Student.__init__(self,name, age, status)
+# инкапсуляция - скрытие или защита чего либо
+# полиморфизм - изменение унаследованных методов и аргументов
+# наследование - унаследовать всё у другого класса

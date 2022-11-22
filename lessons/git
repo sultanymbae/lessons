@@ -24,7 +24,10 @@ git push origin master/main
 
 
 git rm --cached название файла
-удоляет файл из репо
+удaляет файл из репо
 
 git rm --cached -r название папки
 удаляет папку из репо
+
+
+git clone ссылка на репозиторий
