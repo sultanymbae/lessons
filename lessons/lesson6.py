@@ -40,3 +40,5 @@ class Human2(Student,Human):
 
 hum2=Human2('Medet',21)
 print(hum2)
+
+
