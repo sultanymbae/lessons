@@ -38,6 +38,7 @@ class Student(Human):
 class Human2(Student,Human):
     pass
 
+print('re')
 hum2=Human2('Medet',21)
 print(hum2)
 
