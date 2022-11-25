@@ -39,4 +39,3 @@ print(f'Ловкость {superhero.getglty()}\n'
       f'Скорость {superhero.getspd()}\n'
       f'Атака {superhero.getttck()}\n'
       f'Сила {superhero.getpwr()}\n')
-
